@@ -9,3 +9,4 @@ Welcome to my Hangman game, built to practice TypeScript with React. You can try
 - React.js
 - TypeScript
 - Vite
+- Tailwindcss 

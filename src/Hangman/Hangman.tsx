@@ -25,10 +25,10 @@ const Hangman = ({
                      setShowHint
                  }: hangmanProps) => {
     const [score, setScore] = useState<number>(0)
-    let keyboard: JSX.Element[];
+    let keyboard: JSX.Element[] = [];
     if (keys) {
         keyboard = keys.map((item: string, index: number) => {
-            const isDisable = inCorrectLetter.includes(item)
+            const isDisable = guessedLetters.includes(item)
             return (
                 <button
                     disabled={isDisable}
@@ -151,7 +151,7 @@ const Hangman = ({
                         {word}
                     </div>
                     <div className={"keyboard flex flex-wrap gap-2 mt-12 text-white justify-center"}>
-                        {keyboard}
+                        {keyboard && keyboard}
                     </div>
                 </div>
             </div>

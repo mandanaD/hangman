@@ -2,7 +2,7 @@
   "name": "HangMan Game",
   "short_name": "HangMan",
   "description": "Simple HangMan Game",
-  "start_url": "/hangman",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#191A1F",
   "theme_color": "#6849FF",

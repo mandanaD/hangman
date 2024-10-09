@@ -129,7 +129,7 @@ const Hangman = ({
                             showHint ? (
                                 <div className={"flex gap-1"}>
                                     <p className={"text-red-600 font-bold"}>
-                                        Hint:
+                                        Hint::
                                     </p>
                                     <p>
                                         {wordToGuess.hint}

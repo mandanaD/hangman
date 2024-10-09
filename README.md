@@ -1,6 +1,6 @@
 # Hangman Game
 
-Welcome to my Hangman game, built to practice TypeScript with React. You can try out the game by clicking the link below:
+Welcome to my Hangman game, built to practice TypeScript with React. It's a fun word-guessing challenge that you can play right in your browser and even install as a Progressive Web App (PWA) for offline play!
 
 ## [Play the Game Here](https://mandanad.github.io/hangman/)
 
@@ -9,4 +9,5 @@ Welcome to my Hangman game, built to practice TypeScript with React. You can try
 - React.js
 - TypeScript
 - Vite
-- Tailwindcss 
+- PWA
+- Tailwindcss
